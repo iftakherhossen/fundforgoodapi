@@ -31,8 +31,8 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://fundforgood-api.onrender.com', 'https://*.127.0.0.1']
-CORS_ALLOWED_ORIGINS = ['https://fundforgood-api.onrender.com', 'https://*.127.0.0.1', 'http://127.0.0.1:5500']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:5173', 'https://fundforgood.vercel.app', 'https://fundforgood-api.onrender.com', 'https://*.127.0.0.1']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'https://fundforgood.vercel.app', 'https://fundforgood-api.onrender.com', 'https://*.127.0.0.1', 'http://127.0.0.1:5500']
 CORS_ALLOW_ALL_ORIGINS = True
 
 
